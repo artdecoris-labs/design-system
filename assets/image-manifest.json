@@ -1,0 +1,153 @@
+{
+  "note": "Target files go in assets/. Keep the \"name\" exactly; extension may be .png, .jpg or .webp — the storefront resolves either. Source URLs are the live Odoo media currently rendered in the preview.",
+  "targetDir": "assets/",
+  "images": [
+    {
+      "name": "hero-interior",
+      "slot": "Home hero — interior, full-bleed",
+      "recommended": "1600×900 or larger, landscape",
+      "source": "https://www.artdecoris.com/web/image/8244-0b2df0eb/ARTDECORIS-37.webp",
+      "target": "assets/hero-interior.webp"
+    },
+    {
+      "name": "custom-room",
+      "slot": "Custom-made editorial band",
+      "recommended": "1600×900, landscape",
+      "source": "https://www.artdecoris.com/web/image/7221-d715be84/358-DSC02192-min.jpg",
+      "target": "assets/custom-room.webp"
+    },
+    {
+      "name": "collab-deferla",
+      "slot": "De Ferla × B.R.A.S.S. split block",
+      "recommended": "1200×825, landscape",
+      "source": "https://www.artdecoris.com/web/image/8092-e19f4aed/Deferla%20x%20Brass-6.webp",
+      "target": "assets/collab-deferla.webp"
+    },
+    {
+      "name": "banner-wallart",
+      "slot": "Collection page banner",
+      "recommended": "1600×700, landscape",
+      "source": "https://www.artdecoris.com/web/image/8802-f0c5ec98/56.webp",
+      "target": "assets/banner-wallart.webp"
+    },
+    {
+      "name": "cat-wallart",
+      "slot": "Category tile — Wall art",
+      "recommended": "900×1200, portrait 3:4",
+      "source": "https://www.artdecoris.com/web/image/8802-f0c5ec98/56.webp",
+      "target": "assets/cat-wallart.webp"
+    },
+    {
+      "name": "cat-candles",
+      "slot": "Category tile — Candles & diffusers",
+      "recommended": "900×1200, portrait 3:4",
+      "source": "https://www.artdecoris.com/web/image/8801-1f1fd0be/52.webp",
+      "target": "assets/cat-candles.webp"
+    },
+    {
+      "name": "cat-outdoor",
+      "slot": "Category tile — Outdoor deco",
+      "recommended": "900×1200, portrait 3:4",
+      "source": "https://www.artdecoris.com/web/image/8804-81d10168/53.webp",
+      "target": "assets/cat-outdoor.webp"
+    },
+    {
+      "name": "artist-anne",
+      "slot": "Artist card — Anne Mondy",
+      "recommended": "800×1000, portrait 4:5",
+      "source": "https://www.artdecoris.com/web/image/8100-bafd4117/6.webp",
+      "target": "assets/artist-anne.webp"
+    },
+    {
+      "name": "artist-brass",
+      "slot": "Artist card — B.R.A.S.S.",
+      "recommended": "800×1000, portrait 4:5",
+      "source": "https://www.artdecoris.com/web/image/8104-240d8339/7.webp",
+      "target": "assets/artist-brass.webp"
+    },
+    {
+      "name": "artist-juan",
+      "slot": "Artist card — Juan de Lascurain",
+      "recommended": "800×1000, portrait 4:5",
+      "source": "https://www.artdecoris.com/web/image/8264-4b330eb6/images.webp",
+      "target": "assets/artist-juan.webp"
+    },
+    {
+      "name": "prod-bici",
+      "slot": "Product — Wall Decoration Bici",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.template/166/image_1024?unique=2c7de7f",
+      "target": "assets/prod-bici.webp"
+    },
+    {
+      "name": "prod-flowers",
+      "slot": "Product — Wall Decoration Flowers",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.template/165/image_1024",
+      "target": "assets/prod-flowers.webp"
+    },
+    {
+      "name": "prod-ojitos",
+      "slot": "Product — Wall Decoration Ojitos",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.template/168/image_1024",
+      "target": "assets/prod-ojitos.webp"
+    },
+    {
+      "name": "prod-hearts",
+      "slot": "Product — Wall Decoration Hearts",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.template/164/image_1024",
+      "target": "assets/prod-hearts.webp"
+    },
+    {
+      "name": "prod-bici-xl",
+      "slot": "Product — Plexi Edition Bici XL",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.image/526/image_1024/C%20005c%20Plexi%20Bike%20XL.webp?unique=0b831b3",
+      "target": "assets/prod-bici-xl.webp"
+    },
+    {
+      "name": "prod-frame",
+      "slot": "Product — Framed Edition Vertical",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.image/208/image_1024/Frame%20vertical%20open-min-min.webp?unique=0b831b3",
+      "target": "assets/prod-frame.webp"
+    },
+    {
+      "name": "gallery-2",
+      "slot": "PDP gallery 2 — Bici XL view",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.image/526/image_1024/C%20005c%20Plexi%20Bike%20XL.webp?unique=0b831b3",
+      "target": "assets/gallery-2.webp"
+    },
+    {
+      "name": "gallery-3",
+      "slot": "PDP gallery 3 — Bici triptych",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.image/134/image_1024/C%20005d%20Plexi%20Bike%203x-min.webp?unique=0b831b3",
+      "target": "assets/gallery-3.webp"
+    },
+    {
+      "name": "gallery-4",
+      "slot": "PDP gallery 4 — reverse / mount",
+      "recommended": "900×900, square",
+      "source": "https://www.artdecoris.com/web/image/product.image/222/image_1024/C%20014%20achterkant%20small.webp?unique=0b831b3",
+      "target": "assets/gallery-4.webp"
+    },
+    {
+      "name": "mega-shop",
+      "slot": "Mega-menu promo — Shop",
+      "recommended": "800×600, landscape 4:3",
+      "source": "https://www.artdecoris.com/web/image/8801-1f1fd0be/52.webp",
+      "target": "assets/mega-shop.webp"
+    },
+    {
+      "name": "mega-artists",
+      "slot": "Mega-menu promo — Artists",
+      "recommended": "800×600, landscape 4:3",
+      "source": "https://www.artdecoris.com/web/image/8092-e19f4aed/Deferla%20x%20Brass-6.webp",
+      "target": "assets/mega-artists.webp"
+    }
+  ]
+}

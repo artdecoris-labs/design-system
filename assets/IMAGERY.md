@@ -41,3 +41,27 @@ Skips anything already in `assets/`, picks the extension from the response type,
 - Four names reuse the same source photo today (`cat-wallart` / `banner-wallart`, `mega-shop` / `cat-candles`, `mega-artists` / `collab-deferla`, `gallery-2` / `prod-bici-xl`). Replace any of them with a better-cropped shot at the recommended aspect ratio when you have one.
 - Product shots should be square on a neutral background; lifestyle shots full-bleed, warm daylight, art in situ.
 - Nothing in the code needs to change once the files land — the storefront prefers a local file over the live URL automatically.
+
+---
+
+## Status — 2026-08-26
+
+All 21 placeholders replaced with the real imagery pulled from the live Odoo shop
+(<https://www.artdecoris.com>) via the source URLs above. `logo.png` was already real.
+
+`custom-room` is served as JPEG despite the `.jpg` source being requested into a `.webp`
+name; it is stored as `custom-room.jpg` to match its actual content.
+
+**Four of them do not meet the recommended spec and should be re-shot or re-exported
+before launch:**
+
+| Name | Got | Wanted | Problem |
+| --- | --- | --- | --- |
+| `artist-juan` | 221×228 | 800×1000 | Far too small — a thumbnail, not a portrait. Unusable at card size. |
+| `hero-interior` | 1024×671 | 1600×900+ | Will soften on wide displays; it is the first thing on the home page. |
+| `cat-wallart`, `cat-candles`, `cat-outdoor` | 720×720 | 900×1200 (3:4) | Square source into a portrait tile means a hard vertical crop. |
+| `banner-wallart` | 720×720 | 1600×700 | Square into a wide banner — severe crop. |
+
+Odoo serves resized derivatives from `/web/image/...`. Larger originals may exist in the
+Odoo backend; pulling them through the Admin API during the catalog migration will
+generally give better source files than the public web derivatives used here.
